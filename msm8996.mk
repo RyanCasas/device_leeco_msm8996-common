@@ -17,7 +17,7 @@
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosip
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
@@ -261,10 +261,6 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl
-
-# LePref settigs modules
-PRODUCT_PACKAGES += \
-    LePref
 
 # Lights
 PRODUCT_PACKAGES += \
